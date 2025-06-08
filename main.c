@@ -6,7 +6,7 @@
 // %s yop yop yop %s
 
 int main(void) {
-    char* template_path = "./template.cphp";
+    char* template_path = "./templates/template.cphp";
     // je viens d'appendre que ça prend le répertoire de lancement de l'éxécutable
     // et pas le répertoire de l'éxécutable lui même
     FILE* php_file = fopen(template_path, "r");

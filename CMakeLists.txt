@@ -7,3 +7,4 @@ set(CMAKE_C_STANDARD_REQUIRED True)
 
 # Add the main executable
 add_executable(main main.c)
+file(COPY ${CMAKE_SOURCE_DIR}/templates DESTINATION ${CMAKE_BINARY_DIR})
